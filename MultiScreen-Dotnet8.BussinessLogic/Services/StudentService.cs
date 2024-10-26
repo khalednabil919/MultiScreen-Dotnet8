@@ -31,7 +31,7 @@ namespace MultiScreen_Dotnet8.BussinessLogic.Services
                 var subjects = _mapper.Map<List<Subject>>(requestDTO.subjectRequestsDTO);
                 student.Subjects = subjects;
 
-                _unitOfWork.student.Add(student);
+                _unitOfWork.student.Add(student); 
                 _unitOfWork.Complete();
 
                 return new ResponseVM { StatusCode = System.Net.HttpStatusCode.OK };
