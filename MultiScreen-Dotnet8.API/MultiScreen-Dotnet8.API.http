@@ -1,0 +1,6 @@
+@MultiScreen_Dotnet8.API_HostAddress = http://localhost:5117
+
+GET {{MultiScreen_Dotnet8.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
