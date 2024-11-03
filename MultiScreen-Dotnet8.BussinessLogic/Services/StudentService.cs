@@ -10,7 +10,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 namespace MultiScreen_Dotnet8.BussinessLogic.Services
 {
     public class StudentService : IStudentService
@@ -42,5 +41,7 @@ namespace MultiScreen_Dotnet8.BussinessLogic.Services
             }
 
         }
+
+        
     }
 }
